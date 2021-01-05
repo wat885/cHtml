@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lab2</title>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 105%;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <img src="lab2.PNG" alt="">
+    <p>1. <br> บอกว่ากำลังใช้ HTML 5 อยู่</p>
+
+    <p>2. </p>
+    <div class="tooltip"> Hover over me
+        <span class="tooltiptext">Tooltip text</span>
+    </div>
+
+    <p>3. </p>
+    <p>This is normal text - <b>and this is bold text</b>.</p>
+
+    <p><i>iiii</i></p>
+
+    <strong>strong</strong>
+
+    <p><em>em em em</em>
+
+    <p>4. </p>
+    ใช่ bdo
+    <p>โปรแกรมเมอร์</p>
+    <p><bdo dir="rtl">โปรแกรมเมอร์</bdo></p>
+
+
+
+
+
+
+
 </body>
+
 </html>
